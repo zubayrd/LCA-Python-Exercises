@@ -22,7 +22,7 @@ width = int(input("What is the length of the rectangle? "))
 
 area = length * width
 
-print(area)
+print(f"{area} is the area of the rectangle")
 
 # Question 3: Working with Floats
 
@@ -34,4 +34,4 @@ celcius = float(input("What is the temperature in Celcius? "))
 
 fahrenheit = (celcius * 9/5) + 32
 
-print(f"{fahrenheit:.2f}")
+print(f"{fahrenheit:.2f} degrees Fahrenheit")
