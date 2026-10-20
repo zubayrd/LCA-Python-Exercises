@@ -16,7 +16,7 @@ print(f"Hello {name}. You are {age} years old.")
 
 length = int(input("What is the length of the rectangle? "))
 
-width = int(input("What is the length of the rectangle? "))
+width = int(input("What is the width of the rectangle? "))
 
 # Calculate area and print
 
