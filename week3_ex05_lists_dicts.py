@@ -46,7 +46,12 @@ print("Average:", average)
 
 # Create a dictionary of countries and their capitals
 
-capitals = {"South Africa": "Cape Town", "France":"Paris", "Japan":"Tokyo","Germany":"Berlin"}
+capitals = {
+    "South Africa": "Cape Town",
+    "France":"Paris",
+    "Japan":"Tokyo",
+    "Germany":"Berlin"
+}
 
 # Add a new country-capital pair
 
@@ -68,15 +73,20 @@ print(capitals)
 
 # Create a dictionary of fruit colours
 
-fruit_colours = {"apple":"red", "banana":"yellow","orange":"orange","grape":"purple"}
+fruit_colours = {
+    "apple":"red",
+    "banana":"yellow",
+    "orange":"orange",
+    "grape":"purple"
+    }
 
 # Print all the fruits
 
-print("Fruits:", list(fruit_colours.keys()))
+print("Fruits:",fruit_colours.keys())
 
 # Print all the colours
 
-print("Colours:", list(fruit_colours.values()))
+print("Colours:",fruit_colours.values())
 
 # Print each fruit and its colour
 
@@ -85,10 +95,9 @@ for fruit, colour in fruit_colours.items():
 
 # Check if fruit is in dictionary and print its colour
 
-fruit_check = "apple"
+fruit_check = input("Enter a fruit: ")
 
 if fruit_check in fruit_colours:
     print(f"The colour of {fruit_check} is {fruit_colours[fruit_check]}.")
 else:
     print(f"{fruit_check} is not in the dictionary")
-
